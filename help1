@@ -1,0 +1,5 @@
+SELECT CONCAT(last_name,' ',first_name) as full_name
+from customers
+ORDER BY 
+where last_name starts like 'M%' to 'Z%'
+by ASC;
