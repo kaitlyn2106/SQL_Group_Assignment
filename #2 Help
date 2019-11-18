@@ -1,0 +1,7 @@
+select concat (last_name, ", ", first_name) as full_name
+from Customers
+where last_name >= 'M%' and last_name <= 'Z%'
+order by last_name;
+
+# works with:  where last_name >= 'M%'
+# doesn't work with:   where last_name >= 'M%' and last_name <= 'Z%'
