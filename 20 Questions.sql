@@ -127,11 +127,11 @@ delete from categories
 where category_id = 5;
 
 
-#Q4 --generate ID?
+#Q4 :)
 
 
 INSERT INTO products (product_id, category_id, product_code, product_name, description, list_price, discount_percent, date_added) VALUES
-(11, 4, 'dgx_640', 'Yamaha DGX 640 88-Key Digital Piano', 'Long description to come.', '799.99', '0', '2019-11-21 10:24:40')
+(auto_increment, 4, 'dgx_640', 'Yamaha DGX 640 88-Key Digital Piano', 'Long description to come.', '799.99', '0', '2019-11-21 10:24:40')
 ;
 
 #Q5 :)
